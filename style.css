@@ -1,0 +1,745 @@
+/* Reset & base */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Arial', sans-serif; line-height:1.6; color:#333; }
+
+
+/* NAVBAR + HERO */
+/* Dropdown structural styles */
+.menu {
+  list-style: none;
+  margin: auto;
+  padding: 0,20px;
+  background-color:midnightblue;
+  height: 100px;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  /*position: sticky;*/
+  }
+.menu li {
+  position: relative;
+  
+  
+  color: #fff;
+  align-items: center;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+
+}
+
+
+.menu { list-style: none; display: flex; gap: 50px; }
+.menu li a { text-decoration:double; color: inherit; margin:auto; }
+.hero {
+  position: relative;
+  width: 200%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+/*.panel{
+    height: 100px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*---
+position: relative;
+  
+  background-color:  #4A4A4C;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+
+-----*/
+
+/*
+.navbar {
+  position:fixed;
+  top: 0;
+  margin-left: 50px;
+  width: 100%;
+  align-items: center;
+  padding: 12px;
+  z-index: 1000;
+  display:inline;
+}*/
+
+/*
+
+
+.panel-option{
+    width: 70%;
+    font-size: 2rem;
+}*/
+
+
+
+
+
+/* Hero 
+.hero {
+    position: relative; height:100vh;
+    background: url('h2.jpg') center/cover no-repeat;
+}
+.overlay {
+    position: absolute; inset:0;
+    background: rgba(0,0,0,0.5);
+}
+.hero-content {
+    position: relative; top:50%;
+    transform: translateY(-50%);
+    text-align:center; color:#fff;
+}
+.hero-content h1 { font-size:3rem; margin-bottom:0.5rem; }
+.hero-content .btn {
+    display:inline-block;
+    padding:0.75rem 1.5rem;
+    background:#d4af37; color:#000;
+    text-decoration:none; border-radius:4px;
+    transition: background 0.3s;
+}
+.hero-content .btn:hover { background:#c49e2e; }*/
+
+
+/* Layout & reset */
+/*.hero-carousel {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.hero-carousel input { display: none; }
+
+/* Slide container & fade */
+/*.slides { display: flex; width: 300%; height: 100%; transition: margin-left 0.7s ease; }
+.slide {
+  position: relative;
+  width: 100%;
+  flex-shrink: 0;
+}
+.slide img {
+  width: 100%; height: 100%; object-fit: cover;
+  
+  filter: brightness(0.7);
+}
+.slide .content {
+  position: absolute;
+  top: 50%; left: 10%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.slide .content h1 { font-size: 3rem; margin-bottom: 1rem; }
+.slide .content p { font-size: 1.25rem; margin-bottom: 1.5rem; }
+.slide .content .btn {
+  background: #d4af37; color: #000;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* Radio controls */
+/*#slide1:checked ~ .slides { transform: translateX(0); }
+#slide2:checked ~ .slides { transform: translateX(-100%); }
+#slide3:checked ~ .slides { transform: translateX(-200%); }
+
+/* Arrows */
+/*.arrows label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  color: #fff;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity .3s;
+}
+.arrows label:hover { opacity: 1; }
+/* Position each arrow manually */
+/*.arrows label:nth-of-type(1) { left: 10px; }
+.arrows label:nth-of-type(2) { right: 10px; }
+.arrows label:nth-of-type(3) { left: 10px; }
+.arrows label:nth-of-type(4) { right: 10px; }
+.arrows label:nth-of-type(5) { left: 10px; }
+.arrows label:nth-of-type(6) { right: 10px; }
+
+/* Dots */
+/*.dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex; gap: 10px;
+}
+.dot {
+  width: 15px; height: 15px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  transition: transform .3s, background .3s;
+}
+.dot:hover { transform: scale(1.2); }
+#slide1:checked ~ .dots label:nth-of-type(1),
+#slide2:checked ~ .dots label:nth-of-type(2),
+#slide3:checked ~ .dots label:nth-of-type(3) {
+  background: #d4af37;
+}
+
+
+
+
+
+/* PARKING SOLUTION 
+html, body { height:100%; }
+.parking-solution {
+    background-image: url('tbg.jpeg');
+    min-height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+}*/
+
+/*hero section car.*/
+/*.carousel { position: relative; overflow: hidden; height: 120vh; }
+.carousel-images { display: flex; transition: transform 0.0s ease-in-out; }
+.carousel-images img { width: 100%; flex-shrink: 0; }*/
+
+/* carousel styling */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* Hide radio buttons */
+.carousel-container input {
+  display: none;
+}
+
+/* Image wrapper */
+.carousel-images {
+  display: flex;
+  width: 300%;
+  transition: transform 0s ease-in-out;
+  height: 100%;
+}
+
+/* Each image takes full width */
+.carousel-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Slide movement based on radio selection */
+#slide1:checked ~ .carousel .carousel-images {
+  transform: translateX(0%);
+}
+#slide2:checked ~ .carousel .carousel-images {
+  transform: translateX(-100%);
+}
+#slide3:checked ~ .carousel .carousel-images {
+  transform: translateX(-200%);
+}
+
+/* Arrows */
+.arrows label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+  opacity: 0.6;
+  padding: 0 15px;
+  transition: 0.3s ease;
+  display: none;
+}
+.arrows label:hover {
+  opacity: 1;
+}
+.prev { left: 20px; }
+.next { right: 20px; }
+
+/* Show correct arrows */
+#slide1:checked ~ .arrows .slide1,
+#slide2:checked ~ .arrows .slide2,
+#slide3:checked ~ .arrows .slide3 {
+  display: block;
+}
+
+/* Dots styling */
+.dots {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.dot:hover {
+  transform: scale(1.2);
+}
+#slide1:checked ~ .dots label:nth-of-type(1),
+#slide2:checked ~ .dots label:nth-of-type(2),
+#slide3:checked ~ .dots label:nth-of-type(3) {
+  background: #d4af37;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .arrows label {
+    font-size: 2.5rem;
+  }
+  .dot {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+
+
+/* --- Parking Solution Section --- */
+.parking-solution {
+    position: relative;
+    background: url('PS-HERO.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+.parking-solution .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.parking-solution h1 {
+    position: relative;
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    z-index: 1;
+}
+
+/* Responsive: adjust on mobile 
+@media (max-width: 768px) {
+  .parking-solution {
+    background-attachment: scroll;
+  }
+  .parking-solution h1 {
+    font-size: 2rem;
+  }
+}*/
+
+/* --- Fleet Cards Grid --- */
+.fleet {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+  /* background-image: url('fleet-bg.webp');*/
+}
+
+h1{
+    text-decoration: #222f3d #222f3d;
+}
+.card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform .3s, box-shadow .3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card h3 {
+    padding: 1rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.card .btn-outline {
+    margin: 0 1rem 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #d4af37;
+    color: #d4af37;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+.card:hover .btn-outline {
+    background: #d4af37;
+    color: #000;
+}
+
+
+/* According to W3Schools parallax effect using fixed background) :contentReference[oaicite:1]{index=1} */
+
+/*equipments*/
+
+.car-equipment {
+  padding: 40px 20px;
+  background: #f8f8f8;
+  text-align: center;
+  height: 1100px;
+  background: url("bg-equip.jpg") no-repeat center center / cover;
+}
+
+
+.car-equipment h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 3fr));
+  gap: 50px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.equipment-grid .item {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.equipment-grid .item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.equipment-grid .item img {
+  width: 300px;
+  height: 1.5fr;
+  margin-bottom: 15px;
+}
+.equipment-grid .item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #222;
+}
+.equipment-grid .item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/*equipment buttom*/
+
+.equipment-grid .item.button-item {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-left: 250px;
+}
+
+/* Style for the button */
+.equip-btn {
+  margin: 0 1rem 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #d4af37;
+    color: #d4af37;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  
+}
+.equip-btn:hover {
+  background: #d4af37;
+  transform: translateY(-2px);
+  color: #000;
+}
+
+/*review section*/
+
+.testimonials {
+  position: relative;
+  padding: 100px 20px;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  max-height: 500px;
+  background-color: #172c3b;
+}
+
+
+/* Animated gradient 
+.bg-gradient {
+  position: absolute; inset: 0;
+  background: linear-gradient(45deg, #7f7fd5, #e786e5, #ddea91);
+  background-size: 400% 400%;
+  animation: slideBg 20s ease infinite;
+  z-index: -3;
+}
+@keyframes slideBg {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+
+/* Particle background */
+#particles-js {
+  position: absolute; inset: 0;
+  z-index: -2;
+}
+
+/* Review styling */
+.reviews {
+  position: relative;
+  min-height: 150px;
+  max-width: 1000px;
+  margin: auto;
+}
+.review {
+  position: absolute; inset: 0;
+  opacity: 0;
+  padding: 20px;
+  background: rgba(255,255,255,0.8);
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: opacity 0.8s ease;
+}
+.review.active {
+  opacity: 1;
+}
+.author {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Accessibility: reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  .bg-gradient, #particles-js, .review {
+    animation: none;
+    transition: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Booking form */
+.booking {
+  padding:2rem;
+  background:lightslategrey;
+  text-align:center;
+}
+.booking h2 { margin-bottom:1rem; }
+.booking form {
+  max-width:400px;
+  margin:0 auto;
+  display:grid;
+  gap:1rem;
+}
+.booking input, .booking select, .booking button {
+  padding:0.75rem; font-size:1rem;
+}
+.booking button {
+  background:#d4af37; 
+  color:#000;
+  border:none; border-radius:4px;
+  cursor:pointer;
+  transition: opacity .3s;
+}
+.booking button:hover { opacity:0.9; }
+
+/* Footer */
+footer {
+  text-align:center;
+  padding:1rem;
+  background:midnightblue; color:#fff;
+}
+
+
+
+
+
+/* Medium tablets & small desktops (≤ 992px) */
+@media screen and (max-width: 992px) {
+
+  
+  .equipment-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  .car-equipment {
+    padding: 30px 10px;
+    height: auto;
+  }
+}
+
+/* Small tablets & large phones (≤ 768px) */
+@media screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    padding: 10px 0;
+  }
+  .hero {
+    height: 60vh;
+  }
+  .equipment-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 100%;
+  }
+  .equip-btn {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Mobile phones (≤ 600px) */
+
+/* Medium tablets & small desktops (≤ 992px) */
+@media screen and (max-width: 992px) {
+  .equipment-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  .car-equipment {
+    padding: 30px 10px;
+    height: auto;
+  }
+}
+
+/* Small tablets & large phones (≤ 768px) */
+@media screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    padding: 10px 0;
+  }
+  .hero {
+    height: 60vh;
+  }
+  .equipment-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 100%;
+  }
+  .equip-btn {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Mobile phones (≤ 600px) */
+@media screen and (max-width: 600px) {
+  .menu li a {
+    font-size: 0.9rem;
+  }
+  .car-equipment h2 {
+    font-size: 1.5rem;
+  }
+  .equipment-grid .item img {
+    width: 100%;
+    height: auto;
+  }
+  .equip-btn {
+    padding: 0.75rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Large desktops (≥ 1200px) */
+@media screen and (min-width: 1200px) {
+  .equipment-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    max-width: 1200px;
+  }
+  .car-equipment {
+    padding: 60px 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu li a {
+    font-size: 0.9rem;
+  }
+  .car-equipment h2 {
+    font-size: 1.5rem;
+  }
+  .equipment-grid .item img {
+    width: 100%;
+    height: auto;
+  }
+  .equip-btn {
+    padding: 0.75rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Large desktops (≥ 1200px) */
+@media screen and (min-width: 1200px) {
+  .equipment-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    max-width: 1200px;
+  }
+  .car-equipment {
+    padding: 60px 20px;
+  }
+
+  .equip-btn{
+    max-width: 400px;
+    height:60px;
+    margin-top: 200px;
+  }
+}
